@@ -1,0 +1,24 @@
+Job Title: Senior Full-Stack Engineer
+Company: CloudScale Systems
+
+About the Role:
+We are looking for a passionate Full-Stack Engineer to join our core product development team. You will build high-throughput web applications, design REST APIs, and deploy cloud-native microservices.
+
+Key Responsibilities:
+- Develop scalable front-end components using React, TypeScript, and Tailwind CSS.
+- Architect high-performance backend microservices with Node.js, Express.js, or FastAPI.
+- Manage relational and NoSQL databases, specifically PostgreSQL and Redis.
+- Implement containerization with Docker and orchestration via Kubernetes.
+- Drive CI/CD pipelines using GitHub Actions or Jenkins on AWS cloud infrastructure.
+- Collaborate in an Agile/Scrum team using Git for version control.
+
+Required Qualifications & Technical Skills:
+- Programming Languages: JavaScript, TypeScript, Python, SQL
+- Frameworks: React, Node.js, FastAPI, Express.js
+- Cloud & Infrastructure: AWS, Docker, Kubernetes, CI/CD, Linux
+- Databases: PostgreSQL, Redis
+- Fundamentals: REST API design, Data Structures & Algorithms, Problem Solving
+
+Nice to Have:
+- Machine Learning experience with scikit-learn or PyTorch
+- GraphQL experience

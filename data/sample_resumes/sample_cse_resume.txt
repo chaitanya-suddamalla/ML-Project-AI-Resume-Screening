@@ -1,0 +1,36 @@
+Alex Johnson
+Email: alex.johnson.demo@gmail.com | Phone: +1-555-019-2834 | GitHub: github.com/alexjohnson-demo
+Location: San Jose, CA
+
+OBJECTIVE
+Motivated Computer Science & Engineering graduate seeking a Full-Stack Software Engineer position. Experienced in web development, REST APIs, database design, and machine learning fundamentals.
+
+EDUCATION
+Bachelor of Technology (B.Tech) in Computer Science & Engineering
+GPA: 3.8 / 4.0 | Expected Graduation: May 2026
+
+TECHNICAL SKILLS
+- Programming Languages: Python, JavaScript, TypeScript, C++, SQL, HTML5, CSS3
+- Web Frameworks & Libraries: React, Node.js, Express.js, FastAPI, Tailwind CSS, Bootstrap
+- Databases: PostgreSQL, MongoDB, SQLite, Redis
+- Tools & Cloud: Git, Docker, AWS (S3, EC2), Linux, Postman
+- Machine Learning & Data Science: scikit-learn, Pandas, NumPy, Data Analysis, TF-IDF
+- Core CS Concepts: Object-Oriented Programming, Data Structures & Algorithms, REST API design
+
+PROJECTS
+1. E-Commerce Platform API (FastAPI, PostgreSQL, Docker)
+   - Designed microservices architecture with FastAPI and PostgreSQL database.
+   - Containerized backend service using Docker and implemented JWT authentication.
+
+2. Interactive Data Analytics Dashboard (React, Tailwind CSS, Python)
+   - Built a dynamic frontend using React and Tailwind CSS with real-time charting.
+   - Processed tabular datasets with Pandas and NumPy for exploratory data analysis.
+
+WORK EXPERIENCE
+Software Engineering Intern | TechCorp Inc. (Summer 2025)
+- Developed RESTful API endpoints using Node.js and Express.js, reducing response latency by 18%.
+- Wrote unit tests and automated regression checks in GitHub CI/CD pipeline.
+
+CERTIFICATIONS
+- AWS Certified Cloud Practitioner
+- Meta Front-End Developer Professional Certificate

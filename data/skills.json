@@ -1,0 +1,144 @@
+{
+  "categories": {
+    "Programming Languages": [
+      { "name": "Python", "synonyms": ["py", "python3", "python 3"] },
+      { "name": "JavaScript", "synonyms": ["js", "es6", "javascript"] },
+      { "name": "TypeScript", "synonyms": ["ts", "typescript"] },
+      { "name": "Java", "synonyms": ["java 8", "java 11", "java 17", "core java"] },
+      { "name": "C++", "synonyms": ["cpp", "c plus plus"] },
+      { "name": "C#", "synonyms": ["csharp", "c sharp", "dotnet c#"] },
+      { "name": "Go", "synonyms": ["golang", "go language"] },
+      { "name": "Rust", "synonyms": ["rustlang"] },
+      { "name": "PHP", "synonyms": ["php7", "php8"] },
+      { "name": "SQL", "synonyms": ["structured query language", "tsql", "plsql", "pl/sql"] },
+      { "name": "HTML5", "synonyms": ["html", "html5"] },
+      { "name": "CSS3", "synonyms": ["css", "css3"] }
+    ],
+    "Frameworks & Libraries": [
+      { "name": "React", "synonyms": ["react.js", "reactjs", "react js"] },
+      { "name": "Node.js", "synonyms": ["nodejs", "node", "node js"] },
+      { "name": "Express.js", "synonyms": ["express", "expressjs", "express js"] },
+      { "name": "Next.js", "synonyms": ["nextjs", "next js"] },
+      { "name": "Angular", "synonyms": ["angular.js", "angularjs", "angular 2+"] },
+      { "name": "Vue.js", "synonyms": ["vue", "vuejs", "vue js"] },
+      { "name": "FastAPI", "synonyms": ["fast api", "fastapi framework"] },
+      { "name": "Flask", "synonyms": ["flask python"] },
+      { "name": "Django", "synonyms": ["django framework"] },
+      { "name": "Spring Boot", "synonyms": ["springboot", "spring framework"] },
+      { "name": "Tailwind CSS", "synonyms": ["tailwind", "tailwindcss"] },
+      { "name": "Bootstrap", "synonyms": ["bootstrap 4", "bootstrap 5"] },
+      { "name": "TensorFlow", "synonyms": ["tf", "tensorflow 2.0"] },
+      { "name": "PyTorch", "synonyms": ["pytorch"] },
+      { "name": "scikit-learn", "synonyms": ["sklearn", "scikit learn"] },
+      { "name": "Pandas", "synonyms": ["pandas data analysis"] },
+      { "name": "NumPy", "synonyms": ["numpy"] },
+      { "name": "Keras", "synonyms": ["keras"] }
+    ],
+    "Databases & Storage": [
+      { "name": "PostgreSQL", "synonyms": ["postgres", "postgresql"] },
+      { "name": "MySQL", "synonyms": ["mysql database"] },
+      { "name": "MongoDB", "synonyms": ["mongo", "mongodb"] },
+      { "name": "SQLite", "synonyms": ["sqlite3"] },
+      { "name": "Redis", "synonyms": ["redis cache"] },
+      { "name": "Elasticsearch", "synonyms": ["elastic search"] },
+      { "name": "Oracle", "synonyms": ["oracle db"] },
+      { "name": "Cassandra", "synonyms": ["apache cassandra"] }
+    ],
+    "Tools, Cloud & DevOps": [
+      { "name": "Git", "synonyms": ["github", "gitlab", "git version control", "bitbucket"] },
+      { "name": "Docker", "synonyms": ["docker containerization", "docker compose"] },
+      { "name": "Kubernetes", "synonyms": ["k8s", "kubernetes cluster"] },
+      { "name": "AWS", "synonyms": ["amazon web services", "aws cloud", "ec2", "s3", "lambda"] },
+      { "name": "Azure", "synonyms": ["microsoft azure", "azure cloud"] },
+      { "name": "GCP", "synonyms": ["google cloud platform", "google cloud"] },
+      { "name": "Linux", "synonyms": ["ubuntu", "debian", "centos", "unix", "bash", "shell scripting"] },
+      { "name": "CI/CD", "synonyms": ["continuous integration", "github actions", "jenkins", "gitlab ci"] },
+      { "name": "REST API", "synonyms": ["restful api", "restful web services", "rest apis"] },
+      { "name": "GraphQL", "synonyms": ["graphql api"] }
+    ],
+    "Core Machine Learning & Concepts": [
+      { "name": "Machine Learning", "synonyms": ["ml", "machine learning algorithms", "supervised learning"] },
+      { "name": "Deep Learning", "synonyms": ["dl", "deep neural networks", "ann", "cnn", "rnn"] },
+      { "name": "Natural Language Processing", "synonyms": ["nlp", "text mining", "text analytics"] },
+      { "name": "Computer Vision", "synonyms": ["cv", "opencv", "image processing"] },
+      { "name": "Data Analysis", "synonyms": ["data analytics", "exploratory data analysis", "eda"] },
+      { "name": "Object-Oriented Programming", "synonyms": ["oop", "oops", "object oriented programming"] },
+      { "name": "Data Structures & Algorithms", "synonyms": ["dsa", "data structures", "algorithms"] },
+      { "name": "Agile / Scrum", "synonyms": ["agile methodology", "scrum", "jira"] }
+    ],
+    "Soft Skills": [
+      { "name": "Problem Solving", "synonyms": ["analytical skills", "troubleshooting"] },
+      { "name": "Teamwork", "synonyms": ["collaboration", "cross-functional teamwork"] },
+      { "name": "Communication", "synonyms": ["verbal communication", "written communication", "presentation skills"] },
+      { "name": "Leadership", "synonyms": ["mentorship", "team leadership"] },
+      { "name": "Time Management", "synonyms": ["task prioritization", "multitasking"] }
+    ]
+  },
+  "learning_templates": {
+    "Python": {
+      "level": "Beginner",
+      "reason": "Core programming language requested for backend logic and data scripting.",
+      "project": "Build a modular Python CLI tool for automating document parsing and data clean-up."
+    },
+    "JavaScript": {
+      "level": "Beginner",
+      "reason": "Essential for interactive client-side web application behavior.",
+      "project": "Create a vanilla JS dynamic form validator and asynchronous API dashboard."
+    },
+    "React": {
+      "level": "Intermediate",
+      "reason": "Frontend component-based library expected for modern web interfaces.",
+      "project": "Develop a React single-page application incorporating custom hooks and state management."
+    },
+    "FastAPI": {
+      "level": "Intermediate",
+      "reason": "High-performance Python web framework used for low-latency REST APIs.",
+      "project": "Construct a FastAPI backend service with Pydantic payload validation and async database bindings."
+    },
+    "Docker": {
+      "level": "Intermediate",
+      "reason": "Containerization tool needed for reproducible software execution across environments.",
+      "project": "Create multi-stage Dockerfiles for backend and frontend services with Docker Compose orchestration."
+    },
+    "SQL": {
+      "level": "Beginner",
+      "reason": "Required for relational data querying, schema design, and index optimization.",
+      "project": "Write complex SQL queries involving JOINs, GROUP BY aggregations, and window functions."
+    },
+    "PostgreSQL": {
+      "level": "Intermediate",
+      "reason": "Enterprise relational database system commonly specified in full-stack backend roles.",
+      "project": "Set up a local PostgreSQL database with migration scripts and indexing strategy."
+    },
+    "Machine Learning": {
+      "level": "Intermediate",
+      "reason": "Foundational requirement for predictive modeling and automated feature classification.",
+      "project": "Train and evaluate scikit-learn classification models on tabular benchmark datasets."
+    },
+    "Natural Language Processing": {
+      "level": "Intermediate",
+      "reason": "Specialized domain required for text vectorization, sentiment analysis, and token parsing.",
+      "project": "Implement TF-IDF feature extraction and cosine similarity matching on textual corpora."
+    },
+    "Git": {
+      "level": "Beginner",
+      "reason": "Version control system necessary for collaborative software development.",
+      "project": "Practice branching strategies, pull request workflows, and rebase conflict resolution."
+    },
+    "AWS": {
+      "level": "Intermediate",
+      "reason": "Cloud Infrastructure provider expected for cloud deployment and serverless services.",
+      "project": "Deploy a containerized application to AWS ECS or launch an S3/Lambda serverless architecture."
+    },
+    "CI/CD": {
+      "level": "Intermediate",
+      "reason": "Automation pipeline framework for continuous testing and automated deployment.",
+      "project": "Set up GitHub Actions workflows for automated pytest execution and build verification."
+    },
+    "Data Structures & Algorithms": {
+      "level": "Intermediate",
+      "reason": "Core Computer Science fundamentals for writing time- and space-efficient code.",
+      "project": "Solve array, linked list, graph, and dynamic programming challenges on LeetCode/HackerRank."
+    }
+  }
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "eval-001",
+    "resume_title": "Full Stack CSE Graduate",
+    "resume_text": "Rahul Sharma - Computer Science & Engineering Graduate. Proficient in Python, JavaScript, React, Node.js, Express.js, and MongoDB. Experience building REST APIs, writing SQL queries in PostgreSQL, and version control using Git. Basic knowledge of Docker and Machine Learning using scikit-learn.",
+    "job_title": "Full Stack Software Engineer",
+    "job_text": "Looking for a Full Stack Software Engineer skilled in React, Node.js, JavaScript, Python, PostgreSQL, Docker, and CI/CD pipelines. Experience with REST APIs, Git, and Kubernetes is a plus.",
+    "ground_truth_matched": ["React", "Node.js", "JavaScript", "Python", "PostgreSQL", "REST API", "Git", "Docker"],
+    "ground_truth_missing": ["CI/CD", "Kubernetes"],
+    "keyword_baseline_similarity": 0.42,
+    "tfidf_expected_similarity_range": [0.65, 0.85]
+  },
+  {
+    "id": "eval-002",
+    "resume_title": "Data Science & ML Intern",
+    "resume_text": "Ananya Patel - B.Tech CSE. Hands-on experience with Python, Pandas, NumPy, scikit-learn, PyTorch, and SQL. Built NLP projects for text classification and sentiment analysis using TF-IDF. Strong understanding of Data Structures & Algorithms, Object-Oriented Programming, and Linux environment.",
+    "job_title": "Machine Learning Engineer",
+    "job_text": "Seeking a Machine Learning Engineer with strong Python programming skills. Must be proficient in Pandas, NumPy, scikit-learn, TensorFlow or PyTorch, Natural Language Processing, SQL, and Docker. Experience deploying ML models via FastAPI or Flask is desirable.",
+    "ground_truth_matched": ["Python", "Pandas", "NumPy", "scikit-learn", "PyTorch", "Natural Language Processing", "SQL"],
+    "ground_truth_missing": ["TensorFlow", "Docker", "FastAPI", "Flask"],
+    "keyword_baseline_similarity": 0.38,
+    "tfidf_expected_similarity_range": [0.60, 0.80]
+  },
+  {
+    "id": "eval-003",
+    "resume_title": "DevOps & Cloud Engineer Aspirant",
+    "resume_text": "Vikram Singh - CSE Student. Skilled in Linux administration, Shell scripting, Git, Docker, Kubernetes, AWS (EC2, S3), and CI/CD with GitHub Actions. Knowledge of Python and SQL.",
+    "job_title": "Junior DevOps Engineer",
+    "job_text": "Hiring Junior DevOps Engineer. Requirements: Linux, Bash/Shell scripting, Docker, Kubernetes, AWS, Terraform, Ansible, CI/CD, Git, Python.",
+    "ground_truth_matched": ["Linux", "Git", "Docker", "Kubernetes", "AWS", "CI/CD", "Python"],
+    "ground_truth_missing": ["Terraform", "Ansible"],
+    "keyword_baseline_similarity": 0.50,
+    "tfidf_expected_similarity_range": [0.70, 0.90]
+  }
+]
