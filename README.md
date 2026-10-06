@@ -34,27 +34,27 @@ The **AI-Based Resume Screening and Job Matching System** is a full-stack, Natur
 
 ```mermaid
 graph TD
-    User[User / CSE Student] -->|Upload PDF/DOCX/TXT Resume| Parser[Document Parser & PII Sanitizer]
-    User -->|Paste Job Specs| JobEngine[Job Spec Validator]
-    Parser -->|Clean Text| NLP[NLP & Vectorization Pipeline]
+    User["User / CSE Student"] -->|Upload PDF/DOCX/TXT Resume| Parser["Document Parser & PII Sanitizer"]
+    User -->|Paste Job Specs| JobEngine["Job Spec Validator"]
+    Parser -->|Clean Text| NLP["NLP & Vectorization Pipeline"]
     JobEngine -->|Clean Specs| NLP
-    
+
     subgraph NLP Pipeline
-        NLP --> Prep[Technical Token Preservation: C++, C#, .NET, React.js]
-        Prep --> TFIDF[TF-IDF N-Gram Vectorizer (1, 2)]
-        TFIDF --> Cosine[Cosine Similarity Calculation]
-        NLP --> SkillExt[Phrase Boundary Skill Extractor & Synonym Mapper]
+        NLP --> Prep["Technical Token Preservation: C++, C#, .NET, React.js"]
+        Prep --> TFIDF["TF-IDF N-Gram Vectorizer (1, 2)"]
+        TFIDF --> Cosine["Cosine Similarity Calculation"]
+        NLP --> SkillExt["Phrase Boundary Skill Extractor & Synonym Mapper"]
     end
-    
-    Cosine --> Score[Text Similarity Score & Percentage]
-    SkillExt --> Categorizer[Skill Categorizer: Matched, Missing, Resume-Only]
-    Categorizer --> Roadmap[Personalized Learning Checklist Generator]
-    
+
+    Cosine --> Score["Text Similarity Score & Percentage"]
+    SkillExt --> Categorizer["Skill Categorizer: Matched, Missing, Resume-Only"]
+    Categorizer --> Roadmap["Personalized Learning Checklist Generator"]
+
     Score --> DB[(SQLite Database via SQLAlchemy)]
     Categorizer --> DB
     Roadmap --> DB
-    
-    DB --> ReactUI[React + Vite Frontend Dashboard]
+
+    DB --> ReactUI["React + Vite Frontend Dashboard"]
 ```
 
 ---
